@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Surpresa ♥</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" type="module" defer></script>
+</head>
+<body>
+  <!-- Tela de introdução -->
+<div class="fullscreen-section intro" id="intro">
+  <p class="texto-destaque grande fade-in"><span id="intro-1"></span></p>
+  <div class="botoes-intro">
+    <button class="botao-nav fade-in" id="btnSim">Sim</button>
+    <button class="botao-nav fade-in" id="btnNao">Não</button>
+  </div>
+</div>
+
+<!-- Tela alternativa caso ela clique em "Não" -->
+<div class="fullscreen-section hidden" id="alternativa">
+  <p class="texto-destaque grande fade-in">Você quer sim >:(</p>
+  <p class="texto-destaque frase fade-in">Agora volta lá e clica no "Sim" -_-</p>
+
+    <video autoplay loop muted playsinline class="media-responsiva fade-in">
+      <source src="videos/chika.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
+
+  <button class="botao grande fade-in" id="btnVoltar">Voltar</button>
+</div>
+
+  <!-- Tela intermediária -->
+  <div class="fullscreen-section post-intro hidden" id="postIntro">
+    <p class="texto-destaque grande fade-in">Ótima escolha :D <br>
+      Então segure a minha mão e me siga :)</p>
+
+    <video autoplay loop muted playsinline class="media-responsiva fade-in">
+      <source src="videos/clannad.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
+
+    <button class="botao grande fade-in" id="btnComecar">Começar</button>
+  </div>
+
+  <!-- Conteúdo principal -->
+  <div class="retangulo-semi">
+    <div class="container hidden" id="conteudoPrincipal">
+      <h1>Cada momento com você é especial... <br>
+          E eu queria te lembrar disso de uma forma diferente :)</h1>
+
+      <main id="main-content">
+        <div class="gallery">
+          <br />
+          <p class="texto-destaque medio">Você se lembra disso?</p>
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
+            <div class="col-md-3">
+              <div class="card">
+                <img src="images/campo.jpg" alt="Campo" class="media-responsiva" />
+              </div>
+            </div>
+
+            <p class="texto-destaque frase">O primeiro desenho que você fez para mim! <br>
+              Foi nesse momento onde tudo começou... um simples campo gramado que vi em um sonho, você deu um jeito de colocar no papel :0 <br>
+              Admirável, não acha? :)</p>
+          </div>
+
+          <hr class="divisoria-suave" />
+
+          <p class="texto-destaque frase">Em comparação, olha o primeiro desenho que eu fiz pra você... não tem nem comparação kkk</span></p>
+
+          <img src="images/microondas.jpg" alt="Desenho 1" class="media-responsiva" />
+        </div>
+
+        <div class="navegacao">
+          <a href="pag2.html" class="botao-nav">Próxima Página →</a>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content negrito">
+      <p>Feito por alguém que te admira muito</p>
+      <p>© 2025 - Para lembrar dos nossos momentos juntos :D</p>
+    </div>
+  </footer>
+</body>
+</html>
